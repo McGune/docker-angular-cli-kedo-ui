@@ -1,6 +1,6 @@
-FROM node:10.13-alpine as node-angular-cli
+FROM node:latest as node-angular-cli
 
-LABEL authors="John Papa"
+LABEL authors="Sebastian Dohrendorf"
 
 #Linux setup
 RUN apk update \
